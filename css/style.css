@@ -3,6 +3,11 @@ nav{
     background-color: darkorange;
     width: 100%;
     height:80px;
+
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
     
 }
 
@@ -43,11 +48,19 @@ nav img{
 /*main*/
 
 main{
-    padding-top: 100px;
+    padding-top: 150px;
+}
+
+
+.flex-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
 }
 
 .card{
-    max-width: 30%;
+    min-width: 30%;
 }
 
 .card-top{
@@ -76,6 +89,12 @@ main{
 
 }
 
+/*parte bonus*/
+.cuoricino:hover{
+    color: red;
+    cursor: pointer;
+}
+/*/parte bonus*/
 
 .labels{
     display: flex;
@@ -110,3 +129,4 @@ main{
 .old-price{
     text-decoration: line-through;
 }
+
