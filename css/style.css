@@ -1,8 +1,9 @@
 /*nav*/
 nav{
     background-color: darkorange;
-    height:50px;
-    position:fixed;
+    width: 100%;
+    height:80px;
+    
 }
 
 .container-center{
@@ -19,7 +20,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 nav img{
@@ -36,5 +37,6 @@ nav img{
     
 }
 /*/nav*/
+/*manca position fixed*/
 
 
