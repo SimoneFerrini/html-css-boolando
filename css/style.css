@@ -61,17 +61,43 @@ main{
 
 .card{
     min-width: 30%;
+    position: relative;
 }
 
 .card-top{
-    background-image: url("../img/1.webp");
-    background-size: cover;
-    background-position: bottom;
+    
     position: relative;
     width: 100%;
     height:450px;
 }
 
+
+/*inizia la sezione img di sondo*/
+.image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.img-uno{
+    background-image: url("../img/1.webp");
+}
+
+.img-uno-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("../img/1b.webp");
+}
+
+
+.card:hover .img-uno-b{
+    display: inline-block;
+}
+/*finisce la sezione img di sondo*/
 .card-bottom{
     font-size: 0.7em;
 }
@@ -105,6 +131,7 @@ main{
     bottom:20px;
     left:0;
     font-size: 0.7em;
+    z-index: 1;
     
 }
 
