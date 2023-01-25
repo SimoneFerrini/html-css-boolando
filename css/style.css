@@ -42,7 +42,7 @@ nav img{
     
 }
 /*/nav*/
-/*manca position fixed*/
+
 
 
 /*main*/
@@ -62,6 +62,7 @@ main{
 .card{
     min-width: 30%;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .card-top{
@@ -93,11 +94,92 @@ main{
     background-image: url("../img/1b.webp");
 }
 
+.img-due{
+    background-image: url("../img/2.webp");
+}
+
+.img-due-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("../img/2b.webp");
+}
+
+.img-tre{
+    background-image: url("../img/3.webp");
+}
+
+.img-tre-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("../img/3b.webp");
+}
+
+.img-quattro{
+    background-image: url("../img/4.webp");
+}
+
+.img-quattro-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("../img/4b.webp");
+}
+
+.img-cinque{
+    background-image: url("../img/5.webp");
+}
+
+.img-cinque-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("../img/5b.webp");
+}
+
+.img-sei{
+    background-image: url("../img/6.webp");
+}
+
+.img-sei-b{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    background-image: url("../img/6b.webp");
+}
 
 .card:hover .img-uno-b{
     display: inline-block;
 }
+
+.card:hover .img-due-b{
+    display: inline-block;
+}
+
+.card:hover .img-tre-b{
+    display: inline-block;
+}
+
+.card:hover .img-quattro-b{
+    display: inline-block;
+}
+
+.card:hover .img-cinque-b{
+    display: inline-block;
+}
+
+.card:hover .img-sei-b{
+    display: inline-block;
+}
 /*finisce la sezione img di sondo*/
+
+
 .card-bottom{
     font-size: 0.7em;
 }
@@ -157,3 +239,10 @@ main{
     text-decoration: line-through;
 }
 
+/* /main */
+
+
+
+
+
+/*footer*/
